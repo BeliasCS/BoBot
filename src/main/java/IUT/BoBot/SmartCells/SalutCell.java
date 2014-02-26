@@ -3,14 +3,14 @@ package IUT.BoBot.SmartCells;
 import IUT.BoBot.SmartCell;
 
 /**
- * Reply to Bonjour.
+ * Reply to Salut.
  * 
  */
-public class BonjourCell implements SmartCell {
+public class SalutCell implements SmartCell {
 
 	public String ask(String question) {
-		if (question.contains("Bonjour"))
-			return "Bonjour!";
+		if (question.contains("Salut"))
+			return "Salut!";
 		else
 			return null;
 	}
