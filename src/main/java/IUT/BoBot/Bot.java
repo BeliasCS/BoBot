@@ -7,7 +7,7 @@ public class Bot {
 	 * List of SmartCells the questions go through to find an answer.
 	 */
 	final SmartCell[] smartCells = new SmartCell[] { new BonjourCell(),
-			new BonjourWithNameCell(), new TodayCell(), new SalutCell() };
+			new BonjourWithNameCell(), new TodayCell(), new SalutCell(), new AuRevoirCell() };
 
 	/**
 	 * Ask something to BoBot, it will respond to you.
